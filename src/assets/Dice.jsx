@@ -8,7 +8,6 @@ export default function Dice({value,size,id}) {
 
   const freezeDice = (diceId) =>{
     dispatch({ type: "FREEZE_VALUE", payload: diceId });
-    // console.log(diceId,state.frozenDice,state.dice);
   }
 
     const DiceGrid = ({children,template}) =>{
